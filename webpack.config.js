@@ -31,7 +31,7 @@ module.exports = {
             }
         ]
     },
-    pulgins: [
+    plugins: [
         new ExtractTextPlugin('styles.css', {
             allChunks: true
         })
